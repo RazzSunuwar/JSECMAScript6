@@ -38,5 +38,46 @@
 // MIN_SAFE_INTEGER
 // MAX_SAFE_INTEGER
 
+// New Number Methods
+// ES6 added 2 new methods to the Number object:
+// Number .isInteger()
+// Number .isSafeInteger()
+
+// The Number.isInteger() Method
+// The Number.isInteger() method returns true if the argument is an integer.
+// Example:-
+// Number.isInteger(10);   //returns true
+// Number.isInteger(10.5);  //returns false
+
+// The Number.isSafeInteger() Method
+// A safe integer is an interger that can be exactly represented as a double precision number.
+// The Number.isSaferInteger() method returns true if the argument is a  safe integer.
+//  Example:-
+// Number.isSafeInteger(10);   //returns true
+// Number.isSafeInteger(12345678901234567890)  //returns false
+
+// New Global Methods
+// ES6 also added e new global number methods:
+// isFinite()
+// isNaN()
+
+// TheFinite() Method
+// The global isFinite() methods returns false if the arguments is infinity or NaN.
+// Otherwise it returns true:
+// Example:-
+// isFinite(10/0); //returns false
+// isFinite(10/1); //returns true
+
+// The isNaN() Method
+// The global isNaN() method returns true if the argument is NaN. Otherwise it returns false.
+//Example:-
+// isNaN("Hello"); //returns true
+
+// Exponentiation Operator
+// The exponentiation operator (**) raises the operand to the power of the second operand.
+// Example:-
+
+
+
 
 
