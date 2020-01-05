@@ -1,0 +1,25 @@
+<!-- This example finds (returns the value of ) the first element that is larger than 18: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array Find</title>
+</head>
+<body>
+    <h2>Find the Array using the array.findIndex()</h2>
+    <p id="demo"></p>
+
+    <script>
+        let numbers = [1,7, 18, 16, 20];
+        let first = numbers.findIndex(myFunction);
+
+        function myFunction(value, index, array){
+                return value > 18;
+        }
+        document.getElementById("demo").innerHTML = "First number greater than 18 is "+ first;
+    </script>
+</body>
+</html>
